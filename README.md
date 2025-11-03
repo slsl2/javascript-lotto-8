@@ -12,7 +12,7 @@
 
 ## 단위 별 테스트 코드 파일
 
-- [] ValidateAmountTest.js
+- [x] ValidateAmountTest.js
 
 - [] ValidateIntNumberTest.js
 
