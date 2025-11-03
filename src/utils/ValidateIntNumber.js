@@ -1,6 +1,6 @@
 import { fail } from './Fail.js';
 
-export function validateIntNumber(input, errorMessagePrefix = '입력값') {
+export function validateIntNumber(input, errorMessagePrefix) {
   if (input === '') {
     fail(`${errorMessagePrefix}이(가) 입력되지 않았습니다.`);
   }

@@ -1,6 +1,6 @@
 import { Console } from '@woowacourse/mission-utils';
 
-export function printPurchasedLottos(result, totalRate) {
+export function printStatistics(result, totalRate) {
   Console.print('당첨 통계');
   Console.print('---');
 

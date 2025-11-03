@@ -2,7 +2,7 @@ import { Console } from '@woowacourse/mission-utils';
 import { validateBonusNumber } from '../utils/ValidateBonusNumber';
 
 export async function inputBonusNumber(winningNumbers) {
+  Console.print('보너스 번호를 입력해 주세요.');
   const bonusNumberInput = await Console.readLineAsync();
-  const bonusNumber = validateBonusNumber(bonusNumberInput, winningNumbers);
-  return bonusNumber;
+  return validateBonusNumber(bonusNumberInput, winningNumbers);
 }
