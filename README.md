@@ -22,7 +22,7 @@
 
 - [x] CreateLottosTest.js
 
-- [] CalculateRateTest.js
+- [x] CalculateRateTest.js
 
 - [] CalculateResultTest.js
 
