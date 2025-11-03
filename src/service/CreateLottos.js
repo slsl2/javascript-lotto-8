@@ -1,4 +1,4 @@
-import Lotto from '../Lotto';
+import Lotto from '../Lotto.js';
 import { createRandomNumbers } from './CreateRandomNumbers';
 
 export function createLottos(amount) {

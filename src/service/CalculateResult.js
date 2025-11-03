@@ -1,4 +1,4 @@
-import { getRank } from './getRank';
+import { getRank } from './getRank.js';
 
 export function calculateResult(lottos, winningNumbers, bonusNumber) {
   const result = { 3: 0, 4: 0, 5: 0, '5b': 0, 6: 0 };

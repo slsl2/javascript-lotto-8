@@ -1,13 +1,13 @@
 import { Console } from '@woowacourse/mission-utils';
-import { inputAmount } from './input/InputAmount';
-import { createLottos } from './service/CreateLottos';
-import { printPurchasedLottos } from './print/printPurchasedLottos';
-import { inputWinningNumbers } from './input/InputWinningNumbers';
-import { splitWinningNumbers } from './utils/SplitWinningNumbers';
-import { inputBonusNumber } from './input/InputBonusNumber';
-import { calculateResult } from './service/CalculateResult';
-import { calculateRate } from './service/CalculateRate';
-import { printStatistics } from './print/PrintStatistics';
+import { inputAmount } from './input/InputAmount.js';
+import { createLottos } from './service/CreateLottos.js';
+import { printPurchasedLottos } from './print/printPurchasedLottos.js';
+import { inputWinningNumbers } from './input/InputWinningNumbers.js';
+import { splitWinningNumbers } from './utils/SplitWinningNumbers.js';
+import { inputBonusNumber } from './input/InputBonusNumber.js';
+import { calculateResult } from './service/CalculateResult.js';
+import { calculateRate } from './service/CalculateRate.js';
+import { printStatistics } from './print/PrintStatistics.js';
 
 class App {
   async run() {
