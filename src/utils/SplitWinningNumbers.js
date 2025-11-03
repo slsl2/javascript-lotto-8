@@ -1,4 +1,4 @@
-import Lotto from '../Lotto';
+import Lotto from '../Lotto.js';
 
 export function splitWinningNumbers(winningNumbersInput) {
   const parts = winningNumbersInput.split(',').map((s) => s.trim());
