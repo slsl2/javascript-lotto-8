@@ -23,7 +23,6 @@ class App {
       printStatistics(result, totalRate);
     } catch (error) {
       Console.print(error.message || '[ERROR] 알 수 없는 오류가 발생했습니다. 다시 시도해 주세요.');
-      // throw error;
     }
   }
 }
