@@ -1,5 +1,5 @@
 import Lotto from '../Lotto.js';
-import { createRandomNumbers } from './CreateRandomNumbers';
+import { createRandomNumbers } from './CreateRandomNumbers.js';
 
 export function createLottos(amount) {
   const count = amount / 1000;

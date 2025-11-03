@@ -1,4 +1,4 @@
-import { fail } from './utils/Fail';
+import { fail } from './utils/Fail.js';
 
 class Lotto {
   #numbers;
