@@ -34,7 +34,7 @@ __📁tests__/
 │ ├── CalculateResult.js
 │ ├── CreateLottos.js
 │ ├── CreateRandomNumbers.js
-│ └── GetRanks.js
+│ └── GetRank.js
 ├── 📁service/
 │ ├── PrintPurchasedLottos.js
 │ └── PrintStatistics.js
