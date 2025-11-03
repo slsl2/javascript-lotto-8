@@ -10,6 +10,26 @@
 (추후 작성)
 ```
 
+## 단위 별 테스트 코드 파일
+
+- [] ValidateAmountTest.js
+
+- [] ValidateIntNumberTest.js
+
+- [] ValidateBonusNumberTest.js
+
+- [] SplitWinningNumbersTest.js
+
+- [] CreateNumbersTest.js
+
+- [] CreateLottosTest.js
+
+- [] CalculateRateTest.js
+
+- [] CalculateRateTest.js
+
+- [] GetRankTest.js
+
 ## 과제 체크 리스트
 
 ### 프로젝트 세팅
