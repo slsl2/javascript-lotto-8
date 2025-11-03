@@ -20,13 +20,11 @@
 
 - [x] SplitWinningNumbersTest.js
 
-- [] CreateNumbersTest.js
-
-- [] CreateLottosTest.js
+- [x] CreateLottosTest.js
 
 - [] CalculateRateTest.js
 
-- [] CalculateRateTest.js
+- [] CalculateResultTest.js
 
 - [] GetRankTest.js
 
