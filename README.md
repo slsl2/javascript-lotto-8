@@ -26,7 +26,7 @@
 
 - [x] CalculateResultTest.js
 
-- [] GetRankTest.js
+- [x] GetRankTest.js
 
 - [x] FailTest.js
 
