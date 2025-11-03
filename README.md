@@ -18,7 +18,7 @@
 
 - [x] ValidateBonusNumberTest.js
 
-- [] SplitWinningNumbersTest.js
+- [x] SplitWinningNumbersTest.js
 
 - [] CreateNumbersTest.js
 
