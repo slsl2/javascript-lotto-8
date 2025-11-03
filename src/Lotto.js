@@ -1,3 +1,5 @@
+import { fail } from './utils/Fail';
+
 class Lotto {
   #numbers;
 
@@ -7,12 +9,24 @@ class Lotto {
   }
 
   #validate(numbers) {
-    if (numbers.length !== 6) {
-      throw new Error("[ERROR] 로또 번호는 6개여야 합니다.");
+    if (!Array.isArray(numbers) || numbers.length !== 6) {
+      fail('로또 번호는 6개여야 합니다.');
+    }
+    if (!numbers.every((n) => Number.isInteger(n) && n >= 1 && n <= 45)) {
+      fail('로또 번호는 1부터 45 사이의 정수여야 합니다.');
+    }
+    if (new Set(numbers).size !== 6) {
+      fail('로또 번호는 중복될 수 없습니다.');
     }
   }
 
-  // TODO: 추가 기능 구현
+  getNumbers() {
+    return [...this.#numbers];
+  }
+
+  toString() {
+    return `[${this.#numbers.join(', ')}]`;
+  }
 }
 
 export default Lotto;
